@@ -1,8 +1,8 @@
 name := "circe"
 
 version := "0.1"
-
-scalaVersion := "2.12.4"
+scalacOptions+="-Ywarn-unused-import"
+scalaVersion := "2.11.11"
 
 val circeVersion = "0.8.0"
 

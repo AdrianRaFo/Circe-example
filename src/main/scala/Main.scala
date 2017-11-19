@@ -1,11 +1,9 @@
-/**
-  * https://github.com/AdrianRaFo
-  */
 
 import io.circe.syntax._
 import io.circe.parser._
 import Messages._
 import Messages.implicits._
+import Rows._
 
 object Main extends App
 {
